@@ -1,0 +1,49 @@
+-- format
+-- [text to recognize] | [text to display or execute] | [is text a command?]
+
+--dictionary--
+quit||false
+exit||false
+
+-- simple text --
+
+wake up|I am awake, in fact I never sleep|false
+that is good to know|i know everything|false
+be quiet|what ever you say|false
+steven|my beloved master|false
+thank you|you're welcome|false
+true|indubitable|false
+do you like me|you made me I kinda have too|false
+
+
+
+-- COMMANDS --
+-- hardcoded --
+read sutta|0|true
+
+-- binaries --
+notepad|notepad.exe|true
+wordpad|wordpad.exe|true
+calculator|calc.exe|true
+text #my brains|"C:\Users\skidd9\Desktop\SpeechRecognition\SpeechRecognition\brains.txt"|true
+putty|"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PuTTY\PuTTY.lnk"|true
+
+--web--
+wikipedia|"http://www.wikipedia.com"|true
+you #I hate to see you waste your time, sir.|"http://www.youtube.com"|true
+netflix|"http://www.netflix.com"|true
+memory fourms|"http://mt.artofmemory.com/"|true
+google|"http://www.google.com"|true
+I want indian food|"http://www.shaukinfoods.com/SiteAssets/menu/Shaukin%20New%20Menu%20Spring%202015%20-%20With%20Pictures.pdf"|true
+purdue mail|"http://exchange.purdue.edu"|true
+purdue login|"http://www.mypurdue.purdue.edu"|true
+rick roll|"https://www.youtube.com/watch?v=dQw4w9WgXcQ"|true
+metal|"https://www.youtube.com/watch?v=_sbvgRiaxAg"|true
+cool|"https://www.youtube.com/watch?v=EK8GgUAte2w"|true
+random youtube|"http://randomyoutube.net/watch"|true
+random insight|"http://accesstoinsight.org/random-sutta.html"|true
+mike|"https://www.youtube.com/watch?v=530z-_yjdlU"|true
+
+
+--memes--
+dam son dot j peg|"http://i.imgur.com/7lZwLKc.jpg"|true
